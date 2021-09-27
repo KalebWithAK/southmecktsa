@@ -40,7 +40,7 @@ footer {
 legend {
     text-align: center;
     width: 40%;
-    border: solid var(--blue) 1px;
+    border: solid var(--blue) 2px;
     border-radius: 50px 50px;
 }
 
