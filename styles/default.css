@@ -139,4 +139,8 @@ a:hover {
     legend {
         width: 60%;
     }
+
+    #whatIS > * {
+        margin-left: 1em;
+    }
 }
