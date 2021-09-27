@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>Join South Meck TSA!</title>
+        <link href="./styles/default.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -10,15 +12,18 @@
             <img src="./images/tsaLogo.png" alt="TSA Logo">
         </header>
 
-        <aside id="leftCol">
+        <aside id="leftCol" class="column">
             <img src="./images/molecule.png" alt="Molecule">
+            <span class="circle blue"></span>
             <img src="./images/planet.png" alt="Planet">
+            <span class="circle red"></span>
             <img src="./images/atom.png" alt="Atom">
+            <span class="circle blue"></span>
         </aside>
 
         <main>
-            <artice id="whatIs">
-                <h2>What is TSA?</h2>
+            <fieldset id="whatIs" class="leftElem">
+                <legend><h2>What is TSA?</h2></legend>
                 <h3>TSA is a <b>STEM competition club</b>, with events like:</h3>
                 <ul>
                     <li>Engineering Design</li>
@@ -38,10 +43,10 @@
                     <li>Video Game Design</li>
                     <li>and <a href="http://bit.ly/smtsaevents">many more</a></li>
                 </ul>
-            </artice>
+            </fieldset>
             
-            <artice id="competitions">
-                <h2>Competitions</h2>
+            <fieldset id="competitions" class="leftElem">
+                <legend><h2>Competitions</h2></legend>
                 <p>
                     Regional Competition<br>
                     <b>Appalachian State University<br>
@@ -51,36 +56,39 @@
                     (3 days, 2 nights)</b><br>
                     National Competition<br>
                     <b>Dallas, Texas<br>
-                    (5 days, 4 nights)<br>
-                    <br>
-                    *awards look great on applications*</b>
+                    (5 days, 4 nights)</b><br>
                 </p>
-            </artice>
+                <p class="centerText"><b>*awards look great on applications*</b></p>
+            </fieldset>
 
-            <article id="contact">
-                <h2>Contact Us</h2>
+            <fieldset id="contact" class="leftElem">
+                <legend><h2>Contact Us</h2></legend>
                 <p>
                     South Meck TSA Instagram:<br>
                     <a href="https://www.instagram.com/southmecktsa/">@southmechtsa</a><br>
                     Fiorella Diez:<br>
                     9741722117@student.cms.k12.nc.us
                 </p>
-            </article>
+            </fieldset>
 
-            <article id="interestSession" class="centerElem">
+            <fieldset id="interest" class="centerElem">
+                <legend><h2>First Interest Session</h2></legend>
                 <h3 class="centerText">
                     Monday, 9/27<br>
                     2:30-3:30<br>
                     O-1305 (Mr. Howard's Room)<br>
                 </h3>
                 <p>If you can't make it, look for us at Club Day!</p>
-            </article>
+            </fieldset>
         </main>
 
-        <aside id="rightCol">
+        <aside id="rightCol" class="column">
             <img src="./images/syringe.png" alt="Syringe">
+            <span class="circle red"></span>
             <img src="./images/lightBulb.png" alt="Light Bulb">
+            <span class="circle blue"></span>
             <img src="./images/magnifyingGlass.png" alt="Magnifying Glass">
+            <span class="circle red"></span>
         </aside>
 
         <footer></footer>
