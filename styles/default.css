@@ -130,3 +130,13 @@ a:hover {
 #interest {
     grid-area: interest;
 }
+
+@media (max-width: 1200px) {
+    body {
+        font-size: 18px;
+    }
+
+    legend {
+        width: 60%;
+    }
+}
